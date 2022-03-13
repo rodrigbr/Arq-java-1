@@ -1,1 +1,12 @@
+br\edu\infnet\vaterinario\model\test\ExameTeste.class
+br\edu\infnet\vaterinario\model\domain\Higiene.class
 br\edu\infnet\vaterinario\VaterinarioApplication.class
+br\edu\infnet\vaterinario\model\test\HigieneTeste.class
+br\edu\infnet\vaterinario\model\domain\Vacina.class
+br\edu\infnet\vaterinario\model\test\AcaoTeste.class
+br\edu\infnet\vaterinario\model\domain\Acao.class
+br\edu\infnet\vaterinario\model\domain\Animal.class
+br\edu\infnet\vaterinario\model\test\AtendimentoTeste.class
+br\edu\infnet\vaterinario\model\domain\Exame.class
+br\edu\infnet\vaterinario\model\test\VacinaTeste.class
+br\edu\infnet\vaterinario\model\domain\Atendimento.class
