@@ -1,7 +1,5 @@
 package br.edu.infnet.vaterinario.model.domain;
 
-import java.time.LocalDateTime;
-
 public abstract class Atendimento {
 
 	private String vet_responsavel;
@@ -28,6 +26,8 @@ public abstract class Atendimento {
 		sb.append(valor);
 		sb.append(";");
 		sb.append(codigo);
+		sb.append(";");
+		sb.append(calcularValorAtendimento());
 		sb.append(";");
 		
 		return sb.toString();

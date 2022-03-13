@@ -23,7 +23,7 @@ public class Acao {
 		
 		DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 		
-		return String.format("%s;%s;%s", descricao, data.format(formato), reincidente ? "SIM" : "NÃO"); 
+		return String.format("%s;%s;%s;%d", descricao, data.format(formato), reincidente ? "SIM" : "NÃO", atendimentos.size()); 
 	}
 	
 	public String getDescricao() {
