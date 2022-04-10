@@ -38,9 +38,9 @@
 						<tr>
 							<td>${a.id}</td>
 							<td>${a.nome}</td>
-							<td>${a.codigo}</td>
+							<td>${a.cod_higiene}</td>
 							<td>${a.descricao}</td>
-							<td>${a.valor}</td>
+							<td>${a.valor_higiene}</td>
 							<td><a href="/higiene/${a.id}/excluir"> excluir</a></td>
 						</tr>
 					</c:forEach>

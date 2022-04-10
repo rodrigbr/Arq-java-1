@@ -20,9 +20,9 @@
 				name="nome">
 		</div>
 		<div class="form-group">
-			<label for="codigo">Código da higiene:</label> <input type="text" required
-				class="form-control" id="codigo" placeholder="Entre com Código da higiene"
-				name="codigo">
+			<label for="cod_higiene">Código da higiene:</label> <input type="text" required
+				class="form-control" id="cod_higiene" placeholder="Entre com Código da higiene"
+				name="cod_higiene">
 		</div>
 		<div class="form-group">
 			<label for="descricao">Descrição:</label> <input type="text" required
@@ -30,9 +30,9 @@
 				name="descricao">
 		</div>
 		<div class="form-group">
-			<label for="valor">Valor:</label> <input type="number" required
-				class="form-control" id="valor" placeholder="Entre com Valor"
-				name="valor">
+			<label for="valor_higiene">Valor:</label> <input type="number" required
+				class="form-control" id="valor_higiene" placeholder="Entre com Valor"
+				name="valor_higiene">
 		</div>
 		
 		<button type="submit" class="btn btn-default">Salvar</button>

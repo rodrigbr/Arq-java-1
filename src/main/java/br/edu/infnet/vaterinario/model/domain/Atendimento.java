@@ -12,6 +12,10 @@ public abstract class Atendimento {
 	private float valor;
 	private int codigo;
 	
+	public Atendimento() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Atendimento(String vet_responsavel, float valor, int codigo) {
 		this.vet_responsavel = vet_responsavel;
 		this.valor = valor;

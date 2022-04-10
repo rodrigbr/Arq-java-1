@@ -1,11 +1,26 @@
 package br.edu.infnet.vaterinario.model.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "THigiene")
 public class Higiene extends Atendimento {
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
 	private int cod_higiene;
 	private String nome;
 	private String descricao;
 	private float valor_higiene;
+	
+	public Higiene() {
+		 super();
+	}	
 	
 	public Higiene(String vet_responsavel, float valor, int codigo) {
 		super(vet_responsavel, valor, codigo);
@@ -33,13 +48,21 @@ public class Higiene extends Atendimento {
 		
 		return sb.toString();
 	}
-	
-	public int getCodigo() {
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public int getCod_higiene() {
 		return cod_higiene;
 	}
 
-	public void setCodigo(int codigo) {
-		this.cod_higiene = codigo;
+	public void setCod_higiene(int cod_higiene) {
+		this.cod_higiene = cod_higiene;
 	}
 
 	public String getNome() {
@@ -58,11 +81,11 @@ public class Higiene extends Atendimento {
 		this.descricao = descricao;
 	}
 
-	public float getValor() {
+	public float getValor_higiene() {
 		return valor_higiene;
 	}
 
-	public void setValor(float valor) {
-		this.valor_higiene = valor;
+	public void setValor_higiene(float valor_higiene) {
+		this.valor_higiene = valor_higiene;
 	}
 }

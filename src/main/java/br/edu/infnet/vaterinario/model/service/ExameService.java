@@ -1,34 +1,32 @@
 package br.edu.infnet.vaterinario.model.service;
 
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.edu.infnet.vaterinario.model.domain.Exame;
+import br.edu.infnet.vaterinario.model.repository.ExameRepository;
 
 @Service
 public class ExameService {
 	
-	private static Map<Integer, Exame> mapa = new HashMap<Integer, Exame>();
+	@Autowired
+	private ExameRepository exameRepository;
 	
-	private static Integer chave = 1;	
-
 	public Collection<Exame> obterLista(){
-		return mapa.values();
+		return (Collection<Exame>) exameRepository.findAll();
 	}	
 	
 	public void incluir(Exame exame) {
-		exame.setId(chave++);
-		mapa.put(exame.getId(), exame);
+		exameRepository.save(exame);
 	}
 	
 	public void excluir(Integer chave) {
-		mapa.remove(chave);
+		exameRepository.deleteById(chave);
 	}
 	
 	public Exame obterPorId(Integer chave) {
-		return mapa.get(chave);
+		return exameRepository.findById(chave).get();
 	}
 }

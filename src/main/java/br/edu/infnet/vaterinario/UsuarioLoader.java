@@ -25,13 +25,13 @@ public class UsuarioLoader implements ApplicationRunner{
 		
 		usuarioService.incluir(usuario);
 		
-		Usuario usuario2 = new Usuario();
-		usuario2.setAdmin(false);
-		usuario2.setEmail("vet2@teste.com");
-		usuario2.setNome("usuario VET 2");
-		usuario2.setSenha("123");
+		usuario = new Usuario();
+		usuario.setAdmin(false);
+		usuario.setEmail("vet2@teste.com");
+		usuario.setNome("usuario VET 2");
+		usuario.setSenha("123");
 		
-		usuarioService.incluir(usuario2);
+		usuarioService.incluir(usuario);
 		
 	}
 }

@@ -6,12 +6,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.SessionAttributes;
 
 import br.edu.infnet.vaterinario.model.domain.Usuario;
 import br.edu.infnet.vaterinario.model.service.UsuarioService;
 
-@SessionAttributes("usuarioLogado")
+//@SessionAttributes("usuarioLogado")
 @Controller
 public class AcessoController {
 
@@ -45,6 +44,15 @@ public class AcessoController {
 		return "login";
 	}
 
+	/*@GetMapping(value = "/logout")
+	public String logout(WebRequest request, SessionAttributeStore store,
+			SessionStatus status, Model model) {
+		status.setComplete();
+		store.cleanupAttribute(request, "usuarioLogado");
+		model.addAttribute("usuarioLogado", null);
+		return "index";
+	}*/
+	
 	@GetMapping(value = "/logout")
 	public String logout(Model model) {
 		model.addAttribute("usuarioLogado", null);

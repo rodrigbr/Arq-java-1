@@ -48,7 +48,7 @@
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Higienes <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="/higiene">Lista de Higienes</a></li>
+							<li><a href="/higienes">Lista de Higienes</a></li>
 							<li><a href="/higiene">Cadastro de Higiene</a></li>
 						</ul></li>
 
@@ -79,9 +79,7 @@
 	</nav>
 
 	<div class="container">
-		<h3>Right Aligned Navbar</h3>
-		<p>The .navbar-right class is used to right-align navigation bar
-			buttons.</p>
+		<img alt="" src="https://image.cachorrogato.com.br/vitrines/vitrine_98_168.JPG">
 	</div>
 
 </body>

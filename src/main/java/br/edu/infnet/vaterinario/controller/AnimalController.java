@@ -36,8 +36,7 @@ public class AnimalController {
 	}
 	
 	@GetMapping(value = "/animal/{id}/excluir")
-	public String excluir(@PathVariable Integer id ) {
-		
+	public String excluir(@PathVariable Integer id ) {		
 		animalService.excluir(id);
 		return "redirect:/animais";
 	}

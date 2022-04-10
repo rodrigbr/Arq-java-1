@@ -1,6 +1,5 @@
 package br.edu.infnet.vaterinario.model.test;
 
-import java.time.LocalDateTime;
 
 import br.edu.infnet.vaterinario.model.domain.Exame;
 import br.edu.infnet.vaterinario.model.domain.Higiene;
@@ -22,7 +21,7 @@ public class AtendimentoTeste {
 		vacina.setDescricao("Vacina contra doença grave");
 		vacina.setNome("Triplice viral");
 		vacina.setDosagem(20);
-		vacina.setValidade(LocalDateTime.parse("2023-02-14"));	
+		//vacina.setValidade(LocalDateTime.parse("2023-02-14"));	
 
 
 	}

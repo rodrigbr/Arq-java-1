@@ -20,9 +20,9 @@
 				name="nome">
 		</div>
 		<div class="form-group">
-			<label for="codigo">Código do exame:</label> <input type="text" required
-				class="form-control" id="codigo" placeholder="Entre com Código do exame"
-				name="codigo">
+			<label for="cod_exame">Código do exame:</label> <input type="text" required
+				class="form-control" id="cod_exame" placeholder="Entre com Código do exame"
+				name="cod_exame">
 		</div>
 		<div class="form-group">
 			<label for="descricao">Descrição:</label> <input type="text" required
@@ -30,9 +30,9 @@
 				name="descricao">
 		</div>
 		<div class="form-group">
-			<label for="valor">Valor:</label> <input type="number" required
-				class="form-control" id="valor" placeholder="Entre com Valor"
-				name="valor">
+			<label for="valor_exame">Valor:</label> <input type="number" required
+				class="form-control" id="valor_exame" placeholder="Entre com Valor"
+				name="valor_exame">
 		</div>
 		
 		<button type="submit" class="btn btn-default">Salvar</button>

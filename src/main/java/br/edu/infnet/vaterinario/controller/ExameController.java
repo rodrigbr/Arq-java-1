@@ -29,8 +29,7 @@ public class ExameController {
 	}
 
 	@PostMapping(value = "/exame/incluir")
-	public String incluir(Model model, Exame exame) {
-		
+	public String incluir(Model model, Exame exame) {		
 		exameService.incluir(exame);
 		return "redirect:/exames";
 	}

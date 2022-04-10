@@ -18,6 +18,8 @@ public class Usuario  {
 	private String senha;
 	private boolean isAdmin;
 	
+	public Usuario() {}
+	
 	public Integer getId() {
 		return id;
 	}

@@ -26,14 +26,14 @@ public class AnimalLoader implements ApplicationRunner {
 
 		animalService.incluir(animal);
 
-		Animal animal2 = new Animal();
-		animal2.setCor("preto");
-		animal2.setIdade(8);
-		animal2.setNome("Luna");
-		animal2.setPeso(10);
-		animal2.setRaca("Pug");
+		animal = new Animal();
+		animal.setCor("preto");
+		animal.setIdade(8);
+		animal.setNome("Luna");
+		animal.setPeso(10);
+		animal.setRaca("Pug");
 
-		animalService.incluir(animal2);
+		animalService.incluir(animal);
 
 	}
 

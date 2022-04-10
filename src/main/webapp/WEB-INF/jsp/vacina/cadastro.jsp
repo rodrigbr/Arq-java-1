@@ -20,9 +20,9 @@
 				name="nome">
 		</div>
 		<div class="form-group">
-			<label for="codigo">Código da vacina:</label> <input type="text" required
-				class="form-control" id="codigo" placeholder="Entre com Código da vacina"
-				name="codigo">
+			<label for="cod_vacina">Código da vacina:</label> <input type="text" required
+				class="form-control" id="cod_vacina" placeholder="Entre com Código da vacina"
+				name="cod_vacina">
 		</div>
 		<div class="form-group">
 			<label for="descricao">Descrição:</label> <input type="text" required
@@ -30,20 +30,15 @@
 				name="descricao">
 		</div>
 		<div class="form-group">
-			<label for="valor">Valor:</label> <input type="number" required
-				class="form-control" id="valor" placeholder="Entre com Valor"
-				name="valor">
+			<label for="valor_vacina">Valor:</label> <input type="number" required
+				class="form-control" id="valor_vacina" placeholder="Entre com Valor"
+				name="valor_vacina">
 		</div>
 		
 		<div class="form-group">
 			<label for="dosagem">Dosagem:</label> <input type="text" required
 				class="form-control" id="dosagem" placeholder="Entre com Dosagem"
 				name="dosagem">
-		</div>
-		
-		<div class="form-group">
-			<label for="validade">Validade:</label> <input type="text" required
-				class="form-control" id="validade" placeholder="Entre com Validade"	name="validade">
 		</div>
 		
 		<button type="submit" class="btn btn-default">Salvar</button>

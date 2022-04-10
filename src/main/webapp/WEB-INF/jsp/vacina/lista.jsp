@@ -31,7 +31,6 @@
 						<th>Descrição</th>
 						<th>Valor</th>
 						<th>Dosagem</th>
-						<th>Validade</th>
 						<th></th>
 					</tr>
 				</thead>
@@ -40,11 +39,10 @@
 						<tr>
 							<td>${a.id}</td>
 							<td>${a.nome}</td>
-							<td>${a.codigo}</td>
+							<td>${a.cod_vacina}</td>
 							<td>${a.descricao}</td>
-							<td>${a.valor}</td>
+							<td>${a.valor_vacina}</td>
 							<td>${a.dosagem}</td>
-							<td>${a.validade}</td>
 							<td><a href="/vacina/${a.id}/excluir"> excluir</a></td>
 						</tr>
 					</c:forEach>
