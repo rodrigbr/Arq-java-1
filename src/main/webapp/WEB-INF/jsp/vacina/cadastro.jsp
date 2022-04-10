@@ -43,8 +43,7 @@
 		
 		<div class="form-group">
 			<label for="validade">Validade:</label> <input type="text" required
-				class="form-control" id=""validade"" placeholder="Entre com Validade"
-				name=""validade"">
+				class="form-control" id="validade" placeholder="Entre com Validade"	name="validade">
 		</div>
 		
 		<button type="submit" class="btn btn-default">Salvar</button>

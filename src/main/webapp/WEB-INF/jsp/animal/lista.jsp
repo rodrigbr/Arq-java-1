@@ -29,9 +29,9 @@
 						<th>Nome</th>
 						<th>Cor</th>
 						<th>Idade</th>
-						<th>Nascimento</th>
 						<th>Peso</th>
 						<th>Raça</th>
+						<th></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -41,9 +41,9 @@
 							<td>${a.nome}</td>
 							<td>${a.cor}</td>
 							<td>${a.idade}</td>
-							<td>${a.nascimento}</td>
 							<td>${a.peso}</td>
 							<td>${a.raca}</td>
+							<td><a href="/animal/${a.id}/excluir"> excluir</a></td>
 						</tr>
 					</c:forEach>
 				</tbody>

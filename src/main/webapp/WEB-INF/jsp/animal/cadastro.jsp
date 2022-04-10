@@ -35,11 +35,6 @@
 				name="idade">
 		</div>
 		<div class="form-group">
-			<label for="nascimento">Nascimento:</label> <input type="date" required
-				class="form-control" id="nascimento" placeholder="Entre com DD/MM/AAAA"
-				name="nascimento">
-		</div>
-		<div class="form-group">
 			<label for="cor">Cor:</label> <input type="text" required
 				class="form-control" id="cor" placeholder="Entre com Cor"
 				name="cor">
