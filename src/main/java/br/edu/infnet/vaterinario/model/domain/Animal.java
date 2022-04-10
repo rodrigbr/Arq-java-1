@@ -2,21 +2,21 @@ package br.edu.infnet.vaterinario.model.domain;
 
 import java.time.LocalDateTime;
 
+
 public class Animal {
 
 	private String nome;
 	private String raca;
 	private float peso;
 	private int idade;
-	private LocalDateTime nascimento;
+	//private LocalDate nascimento;
 	private String cor;
 	
-	public Animal(String nome, String raca, float peso, int idade, LocalDateTime nascimento, String cor) {
+	public Animal(String nome, String raca, float peso, int idade, String cor) {
 		this.nome = nome;
 		this.raca = raca;
 		this.peso = peso;
 		this.idade = idade;
-		this.nascimento = nascimento;
 		this.cor = cor;
 	}
 	
@@ -32,7 +32,7 @@ public class Animal {
 		sb.append(";");
 		sb.append(idade);
 		sb.append(";");
-		sb.append(nascimento);
+		//sb.append(nascimento);
 		sb.append(";");
 		sb.append(cor);
 		sb.append(";");
@@ -53,7 +53,7 @@ public class Animal {
 		return idade;
 	}
 	public LocalDateTime getNascimento() {
-		return nascimento;
+		return null;
 	}
 	public String getCor() {
 		return cor;

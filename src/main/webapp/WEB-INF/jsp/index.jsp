@@ -10,27 +10,27 @@
 	Veterianrio agora!
 
 	<p>
-		<a href="/exame"> Cadastro de Exames</a>
+		<a href="/exames"> Cadastro de Exames</a>
 	</p>
 
 	<p>
-		<a href="/vacina"> Cadastro de Vacinas</a>
+		<a href="/vacinas"> Cadastro de Vacinas</a>
 	</p>
 
 	<p>
-		<a href="/higiene"> Cadastro de Higiene</a>
+		<a href="/higienes"> Cadastro de Higiene</a>
 	</p>
 
 	<p>
-		<a href="/animal"> Cadastro de Animal</a>
+		<a href="/animais"> Cadastro de Animal</a>
 	</p>
 
 	<p>
-		<a href="/atendimento"> Cadastro de Atendimento</a>
+		<a href="/atendimentos"> Cadastro de Atendimento</a>
 	</p>
 
 	<p>
-		<a href="/acao"> Cadastro de Ação</a>
+		<a href="/acoes"> Cadastro de Ação</a>
 	</p>
 </body>
 </html>

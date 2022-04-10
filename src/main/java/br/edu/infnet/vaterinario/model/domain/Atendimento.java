@@ -2,6 +2,9 @@ package br.edu.infnet.vaterinario.model.domain;
 
 public abstract class Atendimento {
 
+	private Integer id;
+	
+
 	private String vet_responsavel;
 	private Exame exame;
 	private Higiene higiene;
@@ -32,13 +35,9 @@ public abstract class Atendimento {
 		
 		return sb.toString();
 	}
-	
+		
 	public String getVet_responsavel() {
 		return vet_responsavel;
-	}
-	
-	public int getCodigo() {
-		return codigo;
 	}
 
 	public Exame getExame() {
@@ -56,6 +55,41 @@ public abstract class Atendimento {
 	public float getValor() {
 		return valor;
 	}
-	
+
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public void setVet_responsavel(String vet_responsavel) {
+		this.vet_responsavel = vet_responsavel;
+	}
+
+	public void setExame(Exame exame) {
+		this.exame = exame;
+	}
+
+	public void setHigiene(Higiene higiene) {
+		this.higiene = higiene;
+	}
+
+	public void setVacina(Vacina vacina) {
+		this.vacina = vacina;
+	}
+
+	public void setValor(float valor) {
+		this.valor = valor;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
 	
 }
