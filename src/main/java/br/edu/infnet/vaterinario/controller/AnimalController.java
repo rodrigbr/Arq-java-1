@@ -39,6 +39,6 @@ public class AnimalController {
 	public String excluir(@PathVariable Integer id ) {
 		
 		animalService.excluir(id);
-		return "redirect:/exames";
+		return "redirect:/animais";
 	}
 }
